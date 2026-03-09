@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kartu Ucapan Lebaran</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #0f5132, #198754);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 30px 25px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    animation: fadeIn 1.5s ease;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .moon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .signature {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    background: #ffd166;
+    color: #0f5132;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background: #ffe29a;
+    transform: scale(1.05);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="moon">🌙✨</div>
+  <h1>Selamat Hari Raya Idul Fitri</h1>
+
+  <p>
+    Maafkan aku atas segala khilaf, kata yang tak terjaga,
+    sikap yang mungkin pernah melukai, dan ego yang kadang
+    lebih tinggi dari rasa mengerti.
+  </p>
+
+  <p>
+    Di hari yang suci ini, aku hanya ingin kamu tahu…
+    betapa bersyukurnya aku memiliki kamu dalam hidupku.
+    Kamu bukan hanya pasangan, tapi juga rumah tempat
+    hatiku selalu ingin pulang.
+  </p>
+
+  <p>
+    Semoga Hubungan kita tetap hangat seperti peluk yang tak ingin dilepas,
+    tetap kuat melewati waktu, dan tetap tumbuh meski dunia berubah.
+  </p>
+
+  <p>
+    Jika nanti perjalanan hidup terasa berat,
+    izinkan aku tetap di sampingmu,
+    menggenggam tanganmu lebih erat dari sebelumnya.
+  </p>
+
+  <div class="signature">
+    Dengan cinta yang tak pernah berkurang,<br/>
+    Untukmu, yang selalu di hati 🤍
+  </div>
+
+  <button class="btn" onclick="alert('Taqabbalallahu minna wa minkum. \nMohon maaf lahir dan batin, sayangku.❤️')">
+    Klik untuk Doa 💫
+  </button>
+</div>
+
+</body>
+</html>
